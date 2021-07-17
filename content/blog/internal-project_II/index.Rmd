@@ -1,0 +1,37 @@
+---
+date: "2016-04-27T00:00:00Z"
+external_link: ""
+image:
+  caption: Photo by rawpixel on Unsplash
+  focal_point: Smart
+links:
+- icon: github
+  icon_pack: fab
+  name: github material
+  url: https://allisonhorst.github.io/palmerpenguins/
+# slides: example
+summary: A ggplot blog.
+tags:
+- Deep Learning
+title: Ggplot
+url_code: ""
+url_pdf: ""
+url_slides: ""
+url_video: ""
+---
+
+This blog post will teach you how to create a ggplot using an open-source dataset called 'penguins'
+
+```{r}
+#install.packages("palmerpenguins")
+library(palmerpenguins)
+library(ggplot2)
+
+# lets take a brief look at the dataset using the head function
+head(penguins)
+
+# now we can create the plot
+ggplot(penguins, aes(bill_length_mm, bill_depth_mm, color = species))+
+  geom_point()
+```
+
