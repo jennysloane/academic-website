@@ -1,1 +1,16 @@
 // Override this file to add your own SCSS styling.
+.container {
+max-width: 1500px;
+}
+
+.avatar {
+width: 400px;
+height: 400px;
+margin: 0 auto;
+object-fit: cover;
+}
+
+h1 {
+font-size: 2.25rem;
+color: rgb(230, 65, 137);
+}
