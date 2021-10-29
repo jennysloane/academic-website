@@ -12,7 +12,7 @@ links:
 # slides: example
 summary: This blog teaches you how to create a ggplot in R.
 tags:
-- Deep Learning
+- Deep Learning 
 title: ggplot blog 
 url_code: ""
 url_pdf: ""

@@ -12,7 +12,7 @@ links:
 # slides: example
 summary: This blog teaches you how to create a ggplot in R.
 tags:
-- Deep Learning
+- Deep Learning 
 title: ggplot blog 
 url_code: ""
 url_pdf: ""
@@ -31,15 +31,15 @@ library(ggplot2)
 # lets look at the dataset 
 head(penguins)</code></pre>
 <pre><code>## # A tibble: 6 x 8
-##   species island bill_length_mm bill_depth_mm flipper_length_… body_mass_g sex  
+##   species island bill_length_mm bill_depth_mm flipper_length_~ body_mass_g sex  
 ##   &lt;fct&gt;   &lt;fct&gt;           &lt;dbl&gt;         &lt;dbl&gt;            &lt;int&gt;       &lt;int&gt; &lt;fct&gt;
-## 1 Adelie  Torge…           39.1          18.7              181        3750 male 
-## 2 Adelie  Torge…           39.5          17.4              186        3800 fema…
-## 3 Adelie  Torge…           40.3          18                195        3250 fema…
-## 4 Adelie  Torge…           NA            NA                 NA          NA &lt;NA&gt; 
-## 5 Adelie  Torge…           36.7          19.3              193        3450 fema…
-## 6 Adelie  Torge…           39.3          20.6              190        3650 male 
-## # … with 1 more variable: year &lt;int&gt;</code></pre>
+## 1 Adelie  Torge~           39.1          18.7              181        3750 male 
+## 2 Adelie  Torge~           39.5          17.4              186        3800 fema~
+## 3 Adelie  Torge~           40.3          18                195        3250 fema~
+## 4 Adelie  Torge~           NA            NA                 NA          NA &lt;NA&gt; 
+## 5 Adelie  Torge~           36.7          19.3              193        3450 fema~
+## 6 Adelie  Torge~           39.3          20.6              190        3650 male 
+## # ... with 1 more variable: year &lt;int&gt;</code></pre>
 <pre class="r"><code># create a ggplot from the penguins dataset
 ggplot(penguins, aes(bill_length_mm, bill_depth_mm, color = species))+
   geom_point()</code></pre>
