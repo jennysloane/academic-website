@@ -1,0 +1,17 @@
+---
+date: "2016-04-27T00:00:00Z"
+external_link: ""
+image:
+  caption: 
+  focal_point: 
+# slides: example
+summary: This blog provides an example of an embedded google form
+tags:
+title: Google Form
+url_code: ""
+url_pdf: ""
+url_slides: ""
+url_video: ""
+---
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeHJrkuNZ1D6wIABY7owopQJabPIDkU2GcsdKsJNVMnz-FvLg/viewform?embedded=true" width="640" height="510" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
